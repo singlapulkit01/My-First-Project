@@ -1,0 +1,62 @@
+08/09/2020
+
+create table TRAINEES (rollno int primary key, name varchar(20), branch varchar(10), per float, doa date)
+
+insert into TRAINEES values(101,'Aman','cse',78.99,CURRENT_DATE())
+
+SELECT * FROM `trainees`
+
+insert into TRAINEES values(101,'Aman','cse',78.99,CURRENT_DATE())
+
+select rollno,per from trainees ORDER BY per  //sort in asc order
+
+select rollno,per from trainees ORDER BY per desc //sort in desc order
+
+select rollno,per from trainees ORDER BY name limit 2
+
+//to delete all records
+delete from trainees 
+
+//use delete with primary key
+delete from trainees where rollno=101
+
+//to remove table with records
+
+drop table trainees
+
+//partial insertion
+insert into trainees(rollno,name,doa) values(104,'Chaman',CURRENT_DATE())
+
+//update - use where
+update trainees set  branch='mech' , per=88 where rollno=104
+
+//increase all with 5%
+update trainees set per=per+5 
+
+
+//increase all with 5%
+update trainees set per=per+5 where per<=90 
+
+//FOR SHOWING HIGHEST, MINIMUM, AVERAGE
+SELECT MAX(TOTAL) AS 'HIGHEST', MIN(TOTAL) AS 'MINIMUM', AVG(TOTAL) AS 'AVERAGE' FROM EMPLOYEE
+
+SELECT * FROM 'TRAINEES' WHERE BRANCH='CSE' AND NAME='AMAN'
+
+SELECT * FROM TRAINEES WHERE BRANCH='CSE' OR BRANCH='ESE'
+
+SELECT * FROM TRAINEES WHERE BRANCH IN ('CSE','ESE') ORDER BY BRANCH
+
+SELECT * FROM TRAINEES WHERE NAME LIKE 'RA%'
+
+SELECT * FROM TRAINEES WHERE NAME LIKE '%N'
+
+SELECT * FROM TRAINEES WHERE NAME LIKE '_____'
+
+//FINDING ANY WHERE----AT ANY POSITION
+SELECT * FROM TRAINEES WHERE NAME LIKE '%MA%'
+
+SELECT BRANCH,MAX(PER) AS 'HIGHEST' FROM 'TRAINEES' GROUP BY BRANCH
+
+UPDATE LIBRARY SET DOS=DATE _ADD(DOI,INTERVAL DAYS DAY)
+
+SELECT DOS-DOI FROM 'LIBRARY'
