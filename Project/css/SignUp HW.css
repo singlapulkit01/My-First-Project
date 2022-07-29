@@ -1,0 +1,95 @@
+.mainbtn {
+    border: 1px black solid;
+    width: 100px;
+    color: yellow;
+    background-color: black;
+    transition: ease all .5s;
+}
+
+.mainbtn:hover {
+    background-color: black;
+    /*	border: 1px red solid;;*/
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    border-radius: 8px 8px 8px 8px;
+    transition: ease all .5s;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+#signup {
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    background-color: black;
+    margin-top: 60px;
+    text-align: center;
+    border: 3px solid yellow;
+    display: none;
+}
+
+#mainlogo {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    background-image: url(pics/signup.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    background-color: black;
+    border: 3px yellow solid;
+    border-radius: 50%;
+}
+
+#cross:hover {
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    line-height: 25px;
+    outline: none;
+    border: 0px;
+    border-bottom: 3px yellow solid;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#eye {
+    border: 3px black solid;
+    padding: 5px;
+}
+
+#try {
+    height: 30px;
+}
+
+#try1 {
+    width: 10%;
+    background-color: black;
+    color: yellow;
+    float: left;
+}
+
+#mob {
+    float: left;
+    width: 88%;
+}
+
+.not-ok {
+    color: red;
+    font-weight: bold;
+    border: 1px red solid;
+    border-radius: 5px;
+    padding: 3px;
+    display: inline;
+}
+
+.ok {
+    color: green;
+    font-weight: bold;
+    border: 1px green solid;
+    border-radius: 5px;
+    padding: 3px;
+    display: inline;

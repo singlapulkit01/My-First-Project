@@ -1,0 +1,85 @@
+#signup {
+    width: 350px;
+    height: 400px;
+    /*	border: 1px #0061ff solid;*/
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 5px gray;
+    border-radius: 10px;
+
+}
+
+#eye {
+    border: 1px black solid;
+    padding: 2px;
+}
+
+body {
+    background-color: #f0f0f0;
+
+}
+
+#signup img {
+    width: 90px;
+    height: 90px;
+    border: 1px red solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+img:hover {
+    transform: rotate(360deg);
+    transition: ease all 1s;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    line-height: 25px;
+    outline: none;
+    border: 0px;
+    border-bottom: 1px black solid;
+    text-align: center;
+    color: red;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+input[type="text"]:focus {
+    /*	background-color: antiquewhite;*/
+    border-bottom: 1px red solid;
+
+}
+
+input[type="password"]:focus {
+    /*	background-color: antiquewhite;*/
+    border-bottom: 1px red solid;
+
+}
+
+tr {
+    line-height: 30px;
+}
+
+label {
+    font-weight: bolder;
+    color: red;
+
+}
+
+.btn {
+    width: 130px;
+    background-color: deeppink;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    border: 0px;
+    margin-top: 20px;
+
+}

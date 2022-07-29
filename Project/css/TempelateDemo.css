@@ -1,0 +1,533 @@
+#outerdiv {
+    width: 1350px;
+    background-color: #c6c6c6;
+    height: 3000px;
+}
+
+* {
+    margin: 0px;
+}
+
+#title {
+    background-color: black;
+    width: 1350px;
+    height: 40px;
+    position: fixed;
+}
+
+#logo1 {
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Copperplate Gothic;
+    float: left;
+}
+
+#logo2 {
+    color: white;
+    font-family: Copperplate Gothic;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#titlepic {
+    background-image: url(../pics/industries.jpg);
+    width: 1350px;
+    height: 427px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-size: contain;
+}
+
+.thunder {
+    font-size: 15px;
+    margin-left: 300px;
+    margin-top: 330px;
+    float: left;
+    color: yellow;
+    width: 700px;
+    background-color: black;
+}
+
+#info {
+    width: 1350px;
+    height: 1100px;
+    background-color: #c6c6c6;
+}
+
+#info1 {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Copperplate Gothic;
+    font-size: 30px;
+}
+
+#info2 {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Copperplate Gothic;
+    font-size: 20px;
+    width: 1000px;
+    margin: auto;
+}
+
+#parent1 {
+    height: 440px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#parent2 {
+    height: 440px;
+    text-align: center;
+}
+
+#pro1 {
+    border: 1px white solid;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px black;
+    display: inline-block;
+}
+
+#pro2 {
+    border: 1px white solid;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px black;
+    display: inline-block;
+}
+
+#pro3 {
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 5px black;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background-color: white;
+    display: inline-block;
+}
+
+#pro4 {
+    border: 1px white solid;
+    width: 300px;
+    box-shadow: 0px 0px 10px 5px black;
+    height: 400px;
+    margin: 20px;
+    background-color: white;
+    display: inline-block;
+}
+
+#pro5 {
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px 5px black;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background-color: white;
+    display: inline-block;
+}
+
+#pro6 {
+    border: 1px white solid;
+    width: 300px;
+    box-shadow: 0px 0px 10px 5px black;
+    height: 400px;
+    margin: 20px;
+    background-color: white;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#data1 {
+    width: 175px;
+    height: 175px;
+    margin: auto;
+    margin-top: 13px;
+    background-image: url(../pics/free1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#data2 {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    margin-top: 13px;
+    font-family: Copperplate Gothic;
+    padding-top: 10px;
+}
+
+#data3 {
+    width: 175px;
+    height: 175px;
+    margin: auto;
+    margin-top: 13px;
+    background-image: url(../pics/free2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#data4 {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    margin-top: 13px;
+    font-family: Copperplate Gothic;
+    padding-top: 10px;
+}
+
+#data5 {
+    width: 175px;
+    height: 175px;
+    margin: auto;
+    margin-top: 13px;
+    background-image: url(../pics/free3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#data6 {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    margin-top: 13px;
+    font-family: Copperplate Gothic;
+    padding-top: 10px;
+}
+
+#data7 {
+    width: 175px;
+    height: 175px;
+    margin: auto;
+    margin-top: 13px;
+    background-image: url(../pics/free4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#data8 {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    margin-top: 13px;
+    font-family: Copperplate Gothic;
+    padding-top: 10px;
+}
+
+#data9 {
+    width: 175px;
+    height: 175px;
+    margin: auto;
+    margin-top: 13px;
+    background-image: url(../pics/free5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#data10 {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    margin-top: 13px;
+    font-family: Copperplate Gothic;
+    padding-top: 10px;
+}
+
+#data11 {
+    width: 175px;
+    height: 175px;
+    margin: auto;
+    margin-top: 13px;
+    background-image: url(../pics/free6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#data12 {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    margin-top: 13px;
+    font-family: Copperplate Gothic;
+    padding-top: 10px;
+}
+
+#datapic {
+    background-image: url(../pics/0.jpg);
+    width: 1350px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+#thunder2 {
+    width: 1000px;
+    background-color: black;
+    color: yellow;
+    margin-top: 270px;
+    float: left;
+    margin-left: 150px;
+}
+
+#details {
+    width: 1350px;
+    height: 600px;
+    background-color: #c6c6c6;
+}
+
+#first {
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Copperplate Gothic;
+    font-size: 30px;
+}
+
+#second {
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Copperplate Gothic;
+    font-size: 20px;
+    width: 1000px;
+    margin: auto;
+}
+
+#parent {
+    height: 400px;
+}
+
+#child1 {
+    width: 300px;
+    height: 250px;
+    border: 1px solid white;
+    margin: 20px;
+    margin-top: 90px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px black;
+    display: inline-block;
+}
+
+#child2 {
+    width: 300px;
+    height: 250px;
+    border: 1px solid white;
+    margin: 20px;
+    margin-top: 90px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px black;
+    display: inline-block;
+}
+
+#child3 {
+    width: 300px;
+    height: 250px;
+    border: 1px solid white;
+    margin: 20px;
+    margin-top: 90px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px black;
+    display: inline-block;
+}
+
+#a {
+    width: 10px;
+    height: 175px;
+    background-color: rgb(0 0 0 / 31%);
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+#b {
+    width: 200px;
+    height: 175px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: left;
+    font-family: Copperplate Gothic;
+    padding-top: 10px;
+}
+
+#c {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-left: 20px;
+    background-image: url(../pics/pic01.jpg);
+    background-size: contain;
+    border-radius: 80%;
+}
+
+#d {
+    padding-top: 5px;
+    float: left;
+    margin-left: 20px;
+}
+
+.high {
+    color: red;
+}
+
+#e {
+    width: 10px;
+    height: 175px;
+    background-color: rgb(0 0 0 / 31%);
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+#f {
+    width: 200px;
+    height: 175px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: left;
+    font-family: Copperplate Gothic;
+    padding-top: 10px;
+}
+
+#g {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-left: 20px;
+    background-image: url(../pics/pic03.jpg);
+    background-size: contain;
+    border-radius: 80%;
+}
+
+#h {
+    padding-top: 5px;
+    float: left;
+    margin-left: 20px;
+}
+
+#i {
+    width: 10px;
+    height: 175px;
+    background-color: rgb(0 0 0 / 31%);
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+#j {
+    width: 200px;
+    height: 175px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: left;
+    font-family: Copperplate Gothic;
+    padding-top: 10px;
+}
+
+#k {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-left: 20px;
+    background-image: url(../pics/pic02.jpg);
+    background-size: contain;
+    border-radius: 80%;
+}
+
+#l {
+    padding-top: 5px;
+    float: left;
+    margin-left: 20px;
+}
+
+.colour {
+    color: #d4d4d4;
+    font-family: Copperplate Gothic;
+
+}
+
+.colourchange {
+    color: #858585;
+    font-family: Copperplate Gothic;
+}
+
+#about {
+    height: 500px;
+    width: 1350px;
+    background-color: black;
+    text-align: center;
+}
+
+#about1 {
+    color: white;
+    height: 250px;
+    width: 500px;
+    text-align: left;
+    font-size: 17px;
+    display: inline-block;
+}
+
+#about2 {
+    height: 250px;
+    width: 350px;
+    text-align: left;
+    display: inline-block;
+}
+
+ol {
+    list-style: none;
+
+}
+
+hr {
+    color: #858585
+}
+
+#about3 {
+    height: 250px;
+    width: 350px;
+    margin-top: 80px;
+    text-align: left;
+    display: inline-block;
+}
+
+#about4 {
+    width: 1200px;
+    height: 80px;
+    margin-top: 60px;
+    border-top: 1px solid #858585;
+    padding-top: 20px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+#arrow {
+    background-color: white;
+    color: grey;
+    width: 50px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: fantasy;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: ease all 1s;
+}

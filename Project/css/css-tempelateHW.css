@@ -1,0 +1,221 @@
+#outerdiv{
+    width: 1345;
+    height: 900px;
+    background-color:black;
+    margin: auto;
+}
+*{
+    margin: 0px;
+}
+#titlediv{
+    height: 60px;
+    background-color: black;
+}
+#logo1{
+    background-image: url(../pics/000.jpg);
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-top: 10px;margin-left: 10px;
+    transition: ease all 1s;
+    border-radius: 50%;
+}
+#logo1:hover{
+    transform: scale(1.4);
+    transition: ease all 1s;
+}
+#logo2{
+    background-image: url(../pics/insta.jpg);
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-size: contain;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#logo2:hover{
+    cursor: pointer;
+}
+#logo3{
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-size: contain;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-image: url(../pics/fb.png);
+    background-color: white;
+}
+#logo3:hover{
+    cursor: pointer;
+}
+#logo4{
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-size: contain;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-image: url(../pics/telegram.png);
+}
+#logo4:hover{
+    cursor: pointer;
+}
+#logo5{
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-size: contain;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-image: url(../pics/whatsapp.webp);
+}
+#logo5:hover{
+    cursor: pointer;
+}
+#title{
+    color: red;
+    margin-left: 100px;
+    padding-top: 15px;
+    font-family: Colonna MT;
+    font-size: 30px
+}
+#menudiv {
+    width: inherit;
+    height: 50px;
+    background-color: black;
+}
+#menudiv ol {
+    list-style: none;
+    float: left;
+    margin-top: 5px;
+}
+#menudiv ol li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 10px;
+    transition: ease all .5s;
+    color:red;
+}
+#menudiv ol li:hover {
+    background-color: black;
+    /*	border: 1px red solid;;*/
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px 0px 20px 0px;
+    transition: ease all .5s;
+}
+#logo6{
+    background-image: url(../pics/f977d29a712db28759f34e1126fdffa2.jpg);
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+#ourpro{
+    height: 60px;
+    background-color: black;
+    font-family: Colonna MT;
+    color: red;
+    margin-top: 25px;
+    font-size: 40px;
+    text-align: center;
+}
+#oourpro{
+    height: 250px;
+    background-color: black;
+}
+#product1{
+    float: left;
+    height: 300px;
+    width: 440px;
+    background-color: black;
+    border: 1px red solid;
+    margin-left: 9px;
+}
+#product2{
+    float: left;
+    height: 300px;
+    width: 440px;
+    background-color: black;
+    border: 1px red solid;
+}
+#product3{
+    float: left;
+    height: 300px;
+    width: 440px;
+    background-color: black;
+    border: 1px red solid;
+}
+.one{
+    background-image: url(../pics/Red-Ftype-1.jpg);
+    margin: auto;
+    width: 440px;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: red;
+}
+.two{
+    background-image: url(../pics/A8E9CB2A-59B4-486E-A2B6-873FE176E0AA.jpeg);
+    margin: auto;
+    width: 440px;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: red;
+}
+.three{
+    background-image: url(../pics/2016-F12-front-new-1.jpg);
+    margin: auto;
+    width: 440px;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: red;
+}
+#meet{
+    height: 60px;
+    background-color: black;
+    font-family: Colonna MT;
+    color: red;
+    margin-top: 25px;
+    font-size: 40px;
+    text-align: center;
+    padding-top:40px;
+}
+#details{
+    height: 200px;
+    background-color: black;
+    border: 1px red solid;
+}
+#detailpic{
+    background-image: url(../pics/Business-Owner-Resume-Sample.png);
+    background-size: 90%;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    float: left;
+    border: 1px red solid;
+}
+.detailing{
+    color: red;
+    text-align: center;
+    vertical-align: inherit;
+}

@@ -1,0 +1,185 @@
+#outer-div {
+    width: 900px;
+    background-color: bisque;
+    height: 900px;
+    margin: auto;
+}
+
+/*Universal Selector*/
+* {
+    margin: 0px;
+}
+
+#title-div {
+    width: inherit;
+    background-color: coral;
+    height: 60px;
+}
+
+#logo {
+    height: 40px;
+    width: 40px;
+    border: 1px black solid;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+    background-image: url(../pics/fb5.jpg);
+    /*background-color: white;*/
+    background-size: contain;
+    /*border-radius: 50%;*/
+    transition: ease all 1s;
+}
+
+#logo:hover {
+    transform: rotate(180deg);
+    transition: ease all 1s;
+}
+
+#logo2 {
+    height: 40px;
+    width: 40px;
+    border: 1px black solid;
+    margin-top: 5px;
+    margin-right: 10px;
+    float: left;
+    background-image: url(../pics/insta.jpg);
+    background-color: white;
+    background-size: contain;
+    float: right;
+    transition: ease all 1s;
+    border-radius: 50%;
+
+}
+
+#logo2:hover {
+    transform: scale(1.2);
+    transition: ease all 1s;
+}
+
+#site-name2 {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: fantasy;
+    font-size: 20px;
+    float: left;
+    color: white;
+}
+
+#menu-div {
+    width: inherit;
+    height: 50px;
+    background-color: black;
+}
+
+/*Parent Selector*/
+#menu-div ol {
+    list-style: none;
+    float: left;
+    margin-top: 5px;
+}
+
+#menu-div ol li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 10px;
+    transition: ease all .5s;
+
+
+}
+
+#menu-div ol li:hover {
+    background-color: black;
+    /*	border: 1px yellow solid;;*/
+    background-color: yellow;
+    color: purple;
+    cursor: pointer;
+    border-radius: 20px 0px 20px 0px;
+    transition: ease all .5s;
+}
+
+#title-pic {
+    width: inherit;
+    height: 200px;
+    background-color: white;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../pics/banner-2.jpg);
+}
+
+#grass-div {
+    background-image: url(../pics/grass.jpg);
+    width: inherit;
+    height: 60px;
+    background-color: aqua;
+    background-repeat-y: no-repeat;
+    background-position: left bottom;
+}
+
+#parent {
+    width: inherit;
+    height: 500px;
+    background-color: black;
+
+}
+
+#child-left {
+    width: 200px;
+    height: inherit;
+    background-color: antiquewhite;
+    float: left;
+}
+
+#child-center {
+    width: 500px;
+    height: inherit;
+    background-color: yellow;
+    float: left;
+}
+
+#child-right {
+    width: 200px;
+    height: inherit;
+    background-color: orangered;
+    float: left;
+}
+
+.smedia {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-image: url(../pics/usa.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px black solid;
+    transition: ease all 1s;
+
+}
+
+.smedia:hover {
+    /*	box-shadow: 0px 15px 5px black;*/
+    /*	box-shadow: 10px 10px 20px black;*/
+    box-shadow: 0px 0px 10px 5px black;
+    /* for same shadow on all sides*/
+    transform: scale(1.1) rotate(360deg);
+    transition: ease all 1s;
+}
+
+.thunder {
+    font-size: 40px;
+    margin-left: 300px;
+    margin-top: 120px;
+    float: left;
+    color: chocolate;
+    background-color: white;
+    opacity: .7;
+}
